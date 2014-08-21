@@ -14,7 +14,6 @@ This week's project is a clone of [Instagram](http://instagram.com). The goal is
 * Allowing users via Devise gem
 * Geocoding with Google Maps
 * Bootstrap
-* Sass
 * Creating APIs using Rails + [jBuilder](https://github.com/rails/jbuilder)
 
 For this project, we aim be deploying much more regularly - ideally a few times every day.
