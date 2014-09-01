@@ -20,11 +20,11 @@
 
   channel.bind('new_upload', function(data) {
 
-    $.get("/posts/" + data.id + ".json", function(post_data) {
+    $.get("/posts/" + data.id, function(post_data) {
 
-      var newPost = Mustache.render($('#post_template').html(), post)
+      var newPost = Mustache.render($('#post_template').html(), data)
 
-      $(newProfile).prependTo("main .row");
+      $(newPost).prependTo("main .row");
     });
   });
 </script>

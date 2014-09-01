@@ -13,7 +13,7 @@ class PostsController < ApplicationController
 		@post = Post.new(params[:post].permit(:title, :picture, :tag_list, :address, :price))
     @post.user = current_user
 		if @post.save
-      post_data = { title: @post.title, picture: @post.picture.url(:medium), tags: @post.tags, likes: @post.likes }
+      post_data = { id: @post.id, title: @post.title, picture: @post.picture.url(:medium), tags: @post.tags, likes: @post.likes }
       Pusher['theinstagramapp_channel'].trigger('new_upload', post_data)
     end
     redirect_to posts_path
