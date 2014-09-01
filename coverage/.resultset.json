@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/jennywang/MakersAcademy/projects/9thweek/instagram/app/models/user.rb": [
+      "/Users/jennywang/MakersAcademy/projects/10thweek/insta300px/app/models/user.rb": [
         1,
         null,
         null,
@@ -11,27 +11,31 @@
         1,
         null
       ],
-      "/Users/jennywang/MakersAcademy/projects/9thweek/instagram/app/helpers/application_helper.rb": [
+      "/Users/jennywang/MakersAcademy/projects/10thweek/insta300px/app/helpers/application_helper.rb": [
         1,
         null
       ],
-      "/Users/jennywang/MakersAcademy/projects/9thweek/instagram/app/helpers/charges_helper.rb": [
+      "/Users/jennywang/MakersAcademy/projects/10thweek/insta300px/app/helpers/charges_helper.rb": [
         1,
         null
       ],
-      "/Users/jennywang/MakersAcademy/projects/9thweek/instagram/app/helpers/maps_helper.rb": [
+      "/Users/jennywang/MakersAcademy/projects/10thweek/insta300px/app/helpers/likes_helper.rb": [
         1,
         null
       ],
-      "/Users/jennywang/MakersAcademy/projects/9thweek/instagram/app/helpers/posts_helper.rb": [
+      "/Users/jennywang/MakersAcademy/projects/10thweek/insta300px/app/helpers/maps_helper.rb": [
         1,
         null
       ],
-      "/Users/jennywang/MakersAcademy/projects/9thweek/instagram/app/helpers/tags_helper.rb": [
+      "/Users/jennywang/MakersAcademy/projects/10thweek/insta300px/app/helpers/posts_helper.rb": [
         1,
         null
       ],
-      "/Users/jennywang/MakersAcademy/projects/9thweek/instagram/app/controllers/charges_controller.rb": [
+      "/Users/jennywang/MakersAcademy/projects/10thweek/insta300px/app/helpers/tags_helper.rb": [
+        1,
+        null
+      ],
+      "/Users/jennywang/MakersAcademy/projects/10thweek/insta300px/app/controllers/charges_controller.rb": [
         1,
         null,
         1,
@@ -45,16 +49,16 @@
         null,
         null,
         1,
-        1,
+        0,
         null,
-        1,
-        null,
-        null,
+        0,
         null,
         null,
-        1,
         null,
-        1,
+        null,
+        0,
+        null,
+        0,
         null,
         null,
         null,
@@ -65,7 +69,7 @@
         null,
         null
       ],
-      "/Users/jennywang/MakersAcademy/projects/9thweek/instagram/app/controllers/application_controller.rb": [
+      "/Users/jennywang/MakersAcademy/projects/10thweek/insta300px/app/controllers/application_controller.rb": [
         1,
         null,
         null,
@@ -78,7 +82,17 @@
         null,
         null
       ],
-      "/Users/jennywang/MakersAcademy/projects/9thweek/instagram/app/controllers/maps_controller.rb": [
+      "/Users/jennywang/MakersAcademy/projects/10thweek/insta300px/app/controllers/likes_controller.rb": [
+        1,
+        1,
+        0,
+        0,
+        null,
+        0,
+        null,
+        null
+      ],
+      "/Users/jennywang/MakersAcademy/projects/10thweek/insta300px/app/controllers/maps_controller.rb": [
         1,
         1,
         null,
@@ -87,12 +101,12 @@
         null,
         null
       ],
-      "/Users/jennywang/MakersAcademy/projects/9thweek/instagram/app/controllers/posts_controller.rb": [
+      "/Users/jennywang/MakersAcademy/projects/10thweek/insta300px/app/controllers/posts_controller.rb": [
         1,
         1,
         null,
         1,
-        20,
+        21,
         null,
         null,
         1,
@@ -104,22 +118,35 @@
         8,
         8,
         8,
+        8,
+        null,
+        8,
         null,
         null,
         1,
         1,
+        1,
+        1,
+        1,
+        null,
         null,
         null,
         null
       ],
-      "/Users/jennywang/MakersAcademy/projects/9thweek/instagram/app/controllers/tags_controller.rb": [
+      "/Users/jennywang/MakersAcademy/projects/10thweek/insta300px/app/controllers/tags_controller.rb": [
         1,
         1,
         2,
         null,
         null
       ],
-      "/Users/jennywang/MakersAcademy/projects/9thweek/instagram/app/models/post.rb": [
+      "/Users/jennywang/MakersAcademy/projects/10thweek/insta300px/app/models/like.rb": [
+        1,
+        1,
+        null
+      ],
+      "/Users/jennywang/MakersAcademy/projects/10thweek/insta300px/app/models/post.rb": [
+        1,
         1,
         1,
         1,
@@ -150,7 +177,7 @@
         null,
         null
       ],
-      "/Users/jennywang/MakersAcademy/projects/9thweek/instagram/app/models/tag.rb": [
+      "/Users/jennywang/MakersAcademy/projects/10thweek/insta300px/app/models/tag.rb": [
         1,
         1,
         null,
@@ -160,6 +187,6 @@
         null
       ]
     },
-    "timestamp": 1409136104
+    "timestamp": 1409186135
   }
 }
