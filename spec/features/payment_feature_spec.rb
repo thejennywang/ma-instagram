@@ -11,7 +11,7 @@ describe 'Payments' do
     fill_in 'Price', with: '7.00'
     click_button 'Post'
 
-    sleep 2
+    sleep 3
   end
 
   it 'should take users to a payment page after clicking on the buy button', js: true do
@@ -32,7 +32,7 @@ describe 'Payments' do
     click_button 'Pay $7.00'
     end
 
-    sleep 6
+    sleep 10
 
     expect(page).to have_content 'Thanks, you paid $7.00!'
   end

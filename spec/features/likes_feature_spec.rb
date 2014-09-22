@@ -6,8 +6,9 @@ describe 'Likes' do
   end
 
   it "allow users to like posts, updating the post's like count" do
-    visit '/posts'
-    find('.like-button').click
+    visit posts_path
+    find('.like-btn').click
+
     expect(page).to have_css '.like_count', text: '1'
   end
 end
