@@ -25,6 +25,7 @@ class PostsController < ApplicationController
         tag_list: @post.tags.map { |tag| {text: tag.text, url: "/tags/#{tag.text.delete('#')}"} }, 
         like_count: @post.likes.count 
       }
+
       Pusher['theinstagramapp_channel'].trigger('new_upload', post_data)
     end
       redirect_to '/'
