@@ -1,0 +1,29 @@
+<script id="post_template" type="x-tmpl-mustache">
+  <article class='post col-sm-6 col-md-4'>
+    <div class="panel panel-default">
+      <div class="panel-body">
+        <h3>{{ title }}</h3>
+
+          <a href= "{{ charge_url }}">
+            <img src="{{ picture_url }}" class="uploaded-pic">
+          </a><br>
+
+          <small class="text-muted"><em>Uploaded by {{ user_email }}</em></small><br />
+
+          Taken: <a href="{{ map_url }}">{{ address }}</a><br>
+
+          Tags: {{ #tag_list }}
+            <a href="{{ url }}">{{ text }}</a>
+          {{ /tag_list }}
+
+        <a href="{{ like_url }}">
+          <div class="like-btn btn btn-default btn-xs">
+            <span class="glyphicon glyphicon-heart"></span> 
+            <span class="like_count"> {{ like_count }}</span>
+          </div>
+        </a>
+        
+      </div>
+    </div>
+  </article>
+</script>
