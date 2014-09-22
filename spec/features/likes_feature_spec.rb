@@ -5,9 +5,9 @@ describe 'Likes' do
     create(:post)
   end
 
-  it "allow users to like posts, updating the post's like count" do
+  it "allow users to like posts, updating the post's like count", js: true do
     visit posts_path
-    find('.like-btn').click
+    find('.like-link').trigger :click
 
     expect(page).to have_css '.like_count', text: '1'
   end
