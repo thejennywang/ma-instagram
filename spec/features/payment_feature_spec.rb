@@ -32,7 +32,7 @@ describe 'Payments' do
     click_button 'Pay $7.00'
     end
 
-    sleep 10
+    sleep 6
 
     expect(page).to have_content 'Thanks, you paid $7.00!'
   end

@@ -13,6 +13,7 @@ describe 'Maps' do
     visit posts_path
     click_link '25 City Rd, London'
 
+    sleep 2
     # testing for prescence of Google Maps map
     expect(page).to have_css '.gm-style'
   end
