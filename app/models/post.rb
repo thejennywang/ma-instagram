@@ -4,17 +4,17 @@ class Post < ActiveRecord::Base
   has_and_belongs_to_many :tags
   
   has_attached_file :picture, 
-  styles: { medium: "300x300#"},
+  styles: { medium: "350x350#"},
   :storage => :s3,
   :s3_credentials => {
-    :bucket => 'theinstragram',
+    :bucket => 'insta300px',
     :access_key_id => Rails.application.secrets.s3_access_key_id,
     :secret_access_key => Rails.application.secrets.s3_secret_access_key
   }
 
   validates_attachment_content_type :picture, :content_type => /\Aimage\/.*\Z/
   validates :user_id, presence: true
-  validates :title, presence: true
+  validates :title, presence: {message: "You must add a title"}
   validates :price, presence: true, numericality: true
 
 	def tag_list

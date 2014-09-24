@@ -2,6 +2,8 @@ require 'rails_helper'
 
 describe 'Likes' do
   before do
+    jenny = create(:jenny)
+    login_as jenny
     create(:post)
   end
 
